@@ -1,0 +1,1 @@
+/usr/bin/f95     -fPIC -fno-tree-vectorize CMakeFiles/dblat1.dir/dblat1.f.o  -o dblat1  ../lib/libopenblas.a -lpthread 

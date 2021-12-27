@@ -1,0 +1,39 @@
+template<>
+Mat<float> Mat<float>::operator*(Mat<float> &other) const
+{
+    if (this->cols != other.rows) {
+        cout << "Inconsistent matrices for multiplication. Exit." << endl;
+        exit(EXIT_FAILURE);
+    }
+
+    if (thread::hardware_concurrency() >= 4) {
+        util::Timer timer("Mat<float> Multiplication-Threads");
+        Mat<float> res(other.rows, other.cols, other.channels);
+        this->thread_product(other, res);
+        return res;
+    }
+#if defined(_ENABLE_AVX2)
+    Mat<float> res(other.rows, other.cols, other.channels);
+    other.transfer();
+    for (int k = 0; k < this->channels; k++) {
+        for (size_t i = 0; i < this->rows; i++) {
+            for (size_t j = 0; j < )
+        }
+    }
+#elif defined(_ENABLE_NEON)
+
+#endif
+}
+
+//矩阵ijk乘法
+    for (int p = 0; p < this->channels; ++p) {
+        for (size_t i = 0; i < this->rows; ++i) {
+            for (size_t j = 0; j < other.cols; ++j) {
+                Tp tmp = 0;
+                for (size_t k = 0; k < this->cols; ++k) {
+                    tmp += this->at(i, k, p) * other.at(k, j, p);
+                }
+                res.at(i, j, p) = tmp;
+            }
+        }
+    }

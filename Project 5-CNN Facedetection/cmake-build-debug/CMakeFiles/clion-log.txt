@@ -1,0 +1,8 @@
+C:\Windows\system32\wsl.exe --distribution Ubuntu-20.04 --exec /bin/sh -c "export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd '/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection/cmake-build-debug' && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' '/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection'; sleep 0.001"
+-- CMAKE_BUILD_TYPE = RELEASE
+-- Turn on compiler O3 optimization.
+-- CXX_FLAGS:  -O3
+-- CMAKE_BUILD_TYPE: RELEASE
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection/cmake-build-debug

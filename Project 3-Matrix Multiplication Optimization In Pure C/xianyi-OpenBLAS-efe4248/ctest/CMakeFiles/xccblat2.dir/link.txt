@@ -1,0 +1,1 @@
+/usr/bin/f95     -fPIC -fno-tree-vectorize CMakeFiles/xccblat2.dir/c_cblat2.f.o CMakeFiles/xccblat2.dir/c_cblas2.c.o CMakeFiles/xccblat2.dir/c_c2chke.c.o CMakeFiles/xccblat2.dir/auxiliary.c.o CMakeFiles/xccblat2.dir/c_xerbla.c.o CMakeFiles/xccblat2.dir/constant.c.o  -o xccblat2  ../lib/libopenblas.a -lpthread 

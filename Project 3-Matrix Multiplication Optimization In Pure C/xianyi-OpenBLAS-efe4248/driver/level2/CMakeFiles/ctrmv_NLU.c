@@ -1,0 +1,10 @@
+#define UNIT
+#define TRANSA 1
+#define ASMNAME ctrmv_NLU
+#define ASMFNAME ctrmv_NLU_
+#define NAME ctrmv_NLU_
+#define CNAME ctrmv_NLU
+#define CHAR_NAME "ctrmv_NLU_"
+#define CHAR_CNAME "ctrmv_NLU"
+#define COMPLEX
+#include "/mnt/d/OneDrive - Office/File/Project/VS Code/C++/xianyi-OpenBLAS-efe4248/driver/level2/ztrmv_L.c"

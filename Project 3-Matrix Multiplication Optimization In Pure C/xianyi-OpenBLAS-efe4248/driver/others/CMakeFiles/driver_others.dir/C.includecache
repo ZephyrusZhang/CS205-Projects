@@ -1,0 +1,398 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/OneDrive - Office/File/Project/VS Code/C++/xianyi-OpenBLAS-efe4248/driver/others/CMakeFiles/c_abs.c
+/mnt/d/OneDrive - Office/File/Project/VS Code/C++/xianyi-OpenBLAS-efe4248/driver/others/abs.c
+-
+
+/mnt/d/OneDrive - Office/File/Project/VS Code/C++/xianyi-OpenBLAS-efe4248/driver/others/CMakeFiles/openblas_get_config.c
+/mnt/d/OneDrive - Office/File/Project/VS Code/C++/xianyi-OpenBLAS-efe4248/driver/others/openblas_get_config.c
+-
+
+/mnt/d/OneDrive - Office/File/Project/VS Code/C++/xianyi-OpenBLAS-efe4248/driver/others/CMakeFiles/openblas_get_parallel.c
+/mnt/d/OneDrive - Office/File/Project/VS Code/C++/xianyi-OpenBLAS-efe4248/driver/others/openblas_get_parallel.c
+-
+
+/mnt/d/OneDrive - Office/File/Project/VS Code/C++/xianyi-OpenBLAS-efe4248/driver/others/CMakeFiles/z_abs.c
+/mnt/d/OneDrive - Office/File/Project/VS Code/C++/xianyi-OpenBLAS-efe4248/driver/others/abs.c
+-
+
+/mnt/d/OneDrive - Office/File/Project/VS Code/C++/xianyi-OpenBLAS-efe4248/driver/others/abs.c
+common.h
+/mnt/d/OneDrive - Office/File/Project/VS Code/C++/xianyi-OpenBLAS-efe4248/driver/others/common.h
+
+/mnt/d/OneDrive - Office/File/Project/VS Code/C++/xianyi-OpenBLAS-efe4248/driver/others/blas_l1_thread.c
+stdio.h
+-
+stdlib.h
+-
+common.h
+/mnt/d/OneDrive - Office/File/Project/VS Code/C++/xianyi-OpenBLAS-efe4248/driver/others/common.h
+
+/mnt/d/OneDrive - Office/File/Project/VS Code/C++/xianyi-OpenBLAS-efe4248/driver/others/blas_server.c
+common.h
+/mnt/d/OneDrive - Office/File/Project/VS Code/C++/xianyi-OpenBLAS-efe4248/driver/others/common.h
+dlfcn.h
+-
+errno.h
+-
+signal.h
+-
+sys/resource.h
+-
+sys/time.h
+-
+
+/mnt/d/OneDrive - Office/File/Project/VS Code/C++/xianyi-OpenBLAS-efe4248/driver/others/divtable.c
+common.h
+/mnt/d/OneDrive - Office/File/Project/VS Code/C++/xianyi-OpenBLAS-efe4248/driver/others/common.h
+
+/mnt/d/OneDrive - Office/File/Project/VS Code/C++/xianyi-OpenBLAS-efe4248/driver/others/memory.c
+common.h
+/mnt/d/OneDrive - Office/File/Project/VS Code/C++/xianyi-OpenBLAS-efe4248/driver/others/common.h
+errno.h
+-
+stdlib.h
+-
+stdio.h
+-
+fcntl.h
+-
+sys/mman.h
+-
+sys/shm.h
+-
+sys/ipc.h
+-
+sys/types.h
+-
+sys/sysinfo.h
+-
+sched.h
+-
+errno.h
+-
+linux/unistd.h
+-
+sys/syscall.h
+-
+sys/time.h
+-
+sys/resource.h
+-
+unistd.h
+-
+sys/sysctl.h
+-
+sys/resource.h
+-
+conio.h
+-
+errno.h
+-
+stdlib.h
+-
+stdio.h
+-
+fcntl.h
+-
+sys/mman.h
+-
+sys/shm.h
+-
+sys/ipc.h
+-
+sys/types.h
+-
+sys/sysinfo.h
+-
+sched.h
+-
+errno.h
+-
+sys/syscall.h
+-
+sys/time.h
+-
+sys/resource.h
+-
+sys/sysctl.h
+-
+sys/resource.h
+-
+conio.h
+-
+
+/mnt/d/OneDrive - Office/File/Project/VS Code/C++/xianyi-OpenBLAS-efe4248/driver/others/openblas_env.c
+common.h
+/mnt/d/OneDrive - Office/File/Project/VS Code/C++/xianyi-OpenBLAS-efe4248/driver/others/common.h
+
+/mnt/d/OneDrive - Office/File/Project/VS Code/C++/xianyi-OpenBLAS-efe4248/driver/others/openblas_error_handle.c
+common.h
+/mnt/d/OneDrive - Office/File/Project/VS Code/C++/xianyi-OpenBLAS-efe4248/driver/others/common.h
+
+/mnt/d/OneDrive - Office/File/Project/VS Code/C++/xianyi-OpenBLAS-efe4248/driver/others/openblas_get_config.c
+common.h
+/mnt/d/OneDrive - Office/File/Project/VS Code/C++/xianyi-OpenBLAS-efe4248/driver/others/common.h
+string.h
+-
+
+/mnt/d/OneDrive - Office/File/Project/VS Code/C++/xianyi-OpenBLAS-efe4248/driver/others/openblas_get_num_procs.c
+common.h
+/mnt/d/OneDrive - Office/File/Project/VS Code/C++/xianyi-OpenBLAS-efe4248/driver/others/common.h
+
+/mnt/d/OneDrive - Office/File/Project/VS Code/C++/xianyi-OpenBLAS-efe4248/driver/others/openblas_get_num_threads.c
+common.h
+/mnt/d/OneDrive - Office/File/Project/VS Code/C++/xianyi-OpenBLAS-efe4248/driver/others/common.h
+
+/mnt/d/OneDrive - Office/File/Project/VS Code/C++/xianyi-OpenBLAS-efe4248/driver/others/openblas_get_parallel.c
+common.h
+/mnt/d/OneDrive - Office/File/Project/VS Code/C++/xianyi-OpenBLAS-efe4248/driver/others/common.h
+
+/mnt/d/OneDrive - Office/File/Project/VS Code/C++/xianyi-OpenBLAS-efe4248/driver/others/openblas_set_num_threads.c
+common.h
+/mnt/d/OneDrive - Office/File/Project/VS Code/C++/xianyi-OpenBLAS-efe4248/driver/others/common.h
+
+/mnt/d/OneDrive - Office/File/Project/VS Code/C++/xianyi-OpenBLAS-efe4248/driver/others/parameter.c
+stdio.h
+-
+string.h
+-
+common.h
+/mnt/d/OneDrive - Office/File/Project/VS Code/C++/xianyi-OpenBLAS-efe4248/driver/others/common.h
+
+/mnt/d/OneDrive - Office/File/Project/VS Code/C++/xianyi-OpenBLAS-efe4248/driver/others/xerbla.c
+stdio.h
+-
+stdlib.h
+-
+common.h
+/mnt/d/OneDrive - Office/File/Project/VS Code/C++/xianyi-OpenBLAS-efe4248/driver/others/common.h
+conio.h
+-
+
+cblas.h
+stddef.h
+-
+common.h
+common.h
+
+common.h
+config_kernel.h
+config_kernel.h
+config.h
+config.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+time.h
+-
+malloc.h
+-
+sched.h
+-
+sched.h
+-
+windows.h
+-
+math.h
+-
+sys/mman.h
+-
+sys/shm.h
+-
+sys/time.h
+-
+time.h
+-
+unistd.h
+-
+math.h
+-
+pthread.h
+-
+time.h
+-
+math.h
+-
+thread.h
+-
+c_asm.h
+-
+machine/builtins.h
+-
+fenv.h
+-
+stdint.h
+-
+common_quad.h
+common_quad.h
+common_alpha.h
+common_alpha.h
+cet.h
+-
+common_x86.h
+common_x86.h
+common_x86_64.h
+common_x86_64.h
+common_ia64.h
+common_ia64.h
+common_power.h
+common_power.h
+common_sparc.h
+common_sparc.h
+common_mips.h
+common_mips.h
+common_riscv64.h
+common_riscv64.h
+common_mips64.h
+common_mips64.h
+common_arm.h
+common_arm.h
+common_arm64.h
+common_arm64.h
+common_zarch.h
+common_zarch.h
+common_loongarch64.h
+common_loongarch64.h
+common_linux.h
+common_linux.h
+complex.h
+-
+param.h
+param.h
+common_param.h
+common_param.h
+stdio.h
+-
+stdatomic.h
+-
+common_interface.h
+common_interface.h
+common_reference.h
+common_reference.h
+common_macro.h
+common_macro.h
+common_level1.h
+common_level1.h
+common_level2.h
+common_level2.h
+common_level3.h
+common_level3.h
+common_lapack.h
+common_lapack.h
+cblas.h
+cblas.h
+common_stackalloc.h
+common_stackalloc.h
+symcopy.h
+symcopy.h
+common_thread.h
+common_thread.h
+
+common_alpha.h
+
+common_arm.h
+
+common_arm64.h
+
+common_c.h
+
+common_d.h
+
+common_ia64.h
+ia64intrin.h
+-
+
+common_interface.h
+
+common_lapack.h
+
+common_level1.h
+
+common_level2.h
+
+common_level3.h
+
+common_linux.h
+syscall.h
+-
+
+common_loongarch64.h
+
+common_macro.h
+common_sb.h
+common_sb.h
+common_s.h
+common_s.h
+common_d.h
+common_d.h
+common_q.h
+common_q.h
+common_c.h
+common_c.h
+common_z.h
+common_z.h
+common_x.h
+common_x.h
+
+common_mips.h
+
+common_mips64.h
+
+common_param.h
+
+common_power.h
+
+common_q.h
+
+common_reference.h
+
+common_riscv64.h
+riscv-vector.h
+-
+
+common_s.h
+
+common_sb.h
+
+common_sparc.h
+
+common_stackalloc.h
+assert.h
+-
+
+common_thread.h
+omp.h
+-
+
+common_x.h
+
+common_x86.h
+intrin.h
+-
+
+common_x86_64.h
+intrin.h
+-
+
+common_z.h
+
+common_zarch.h
+
+config.h
+
+param.h
+
+symcopy.h
+
