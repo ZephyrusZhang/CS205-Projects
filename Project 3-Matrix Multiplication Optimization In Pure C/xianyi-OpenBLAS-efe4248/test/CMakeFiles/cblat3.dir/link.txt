@@ -1,1 +1,0 @@
-/usr/bin/f95     -fPIC -fno-tree-vectorize CMakeFiles/cblat3.dir/cblat3.f.o  -o cblat3  ../lib/libopenblas.a -lpthread 
