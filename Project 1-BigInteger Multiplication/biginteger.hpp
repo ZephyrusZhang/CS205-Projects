@@ -30,6 +30,7 @@ string mul(string str1, string str2)
         res[i] = digit;
         res[i + 1] += carry;
     }
+
     bool null = false;
     string s = "";
     //将结果拼接在一起
