@@ -1,6 +1,14 @@
 #ifndef BIG_INTEGER_HPP
 #define BIG_INTEGER_HPP
 
+#include <iostream>
+#include <string>
+#include <cstring>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
 string mul(string str1, string str2)
 {
     //先除去头部的负号(如果有的话)，以便于后续运算

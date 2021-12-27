@@ -1,6 +1,14 @@
 #ifndef MAT_HPP
 #define MAT_HPP
 
+#include <iostream>
+#include <string>
+#include <cstring>
+#include <fstream>
+#include <time.h>
+
+using namespace std;
+
 class Matrix
 {
 private:
