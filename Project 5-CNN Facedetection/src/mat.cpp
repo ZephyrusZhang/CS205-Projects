@@ -3,7 +3,7 @@
 #include "mat.hpp"
 #include "macro.hpp"
 
-CMat::CMat(size_t rows_, size_t cols_)
+Mat8F::Mat8F(size_t rows_, size_t cols_)
         : rows(rows_), cols(cols_)
 {
     data = static_cast<float *>(std::aligned_alloc(256, sizeof(float) * rows * cols));
@@ -12,12 +12,12 @@ CMat::CMat(size_t rows_, size_t cols_)
         data[i] = 0.0f;
 }
 
-CMat::~CMat()
+Mat8F::~Mat8F()
 {
     setnull();
 }
 
-void CMat::init(size_t rows_, size_t cols_)
+void Mat8F::init(size_t rows_, size_t cols_)
 {
     rows = rows_;
     cols = cols_;
@@ -27,7 +27,7 @@ void CMat::init(size_t rows_, size_t cols_)
         data[i] = 0.0f;
 }
 
-void CMat::setnull()
+void Mat8F::setnull()
 {
     if (data != nullptr)
     {
@@ -37,7 +37,7 @@ void CMat::setnull()
     rows = cols = 0;
 }
 
-void CMat::transfer()
+void Mat8F::transfer()
 {
     auto *ptr = static_cast<float *>(aligned_alloc(256, sizeof(float) * cols * rows));
 #pragma omp parallel for
@@ -57,7 +57,7 @@ void CMat::transfer()
     rows = tmp;
 }
 
-void CMat::sgemm(const CMat &blobMat, const CMat &filterMat, CMat &resBlobMat)
+void Mat8F::sgemm(const Mat8F &blobMat, const Mat8F &filterMat, Mat8F &resBlobMat)
 {
     ASSERT(blobMat.isValid() && filterMat.isValid(), "Parameter [blobMat] or [filterMat] is invalid")
     ASSERT(blobMat.cols == filterMat.rows, "Inconsistent size for matrix sgemm")
@@ -78,7 +78,7 @@ void CMat::sgemm(const CMat &blobMat, const CMat &filterMat, CMat &resBlobMat)
     }
 }
 
-inline bool CMat::isValid() const
+inline bool Mat8F::isValid() const
 {
     return (rows > 0 && cols > 0 && data != nullptr);
 }

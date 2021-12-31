@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection"
+CMAKE_SOURCE_DIR = "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection/cmake-build-debug"
+CMAKE_BINARY_DIR = "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CNN_Facedetection.dir/depend.make
@@ -59,55 +59,55 @@ include CMakeFiles/CNN_Facedetection.dir/flags.make
 
 CMakeFiles/CNN_Facedetection.dir/src/facedetection-data.cpp.o: CMakeFiles/CNN_Facedetection.dir/flags.make
 CMakeFiles/CNN_Facedetection.dir/src/facedetection-data.cpp.o: ../src/facedetection-data.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CNN_Facedetection.dir/src/facedetection-data.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CNN_Facedetection.dir/src/facedetection-data.cpp.o -c "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection/src/facedetection-data.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CNN_Facedetection.dir/src/facedetection-data.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CNN_Facedetection.dir/src/facedetection-data.cpp.o -c "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection/src/facedetection-data.cpp"
 
 CMakeFiles/CNN_Facedetection.dir/src/facedetection-data.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CNN_Facedetection.dir/src/facedetection-data.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection/src/facedetection-data.cpp" > CMakeFiles/CNN_Facedetection.dir/src/facedetection-data.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection/src/facedetection-data.cpp" > CMakeFiles/CNN_Facedetection.dir/src/facedetection-data.cpp.i
 
 CMakeFiles/CNN_Facedetection.dir/src/facedetection-data.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CNN_Facedetection.dir/src/facedetection-data.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection/src/facedetection-data.cpp" -o CMakeFiles/CNN_Facedetection.dir/src/facedetection-data.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection/src/facedetection-data.cpp" -o CMakeFiles/CNN_Facedetection.dir/src/facedetection-data.cpp.s
 
 CMakeFiles/CNN_Facedetection.dir/src/facedetection.cpp.o: CMakeFiles/CNN_Facedetection.dir/flags.make
 CMakeFiles/CNN_Facedetection.dir/src/facedetection.cpp.o: ../src/facedetection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CNN_Facedetection.dir/src/facedetection.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CNN_Facedetection.dir/src/facedetection.cpp.o -c "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection/src/facedetection.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CNN_Facedetection.dir/src/facedetection.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CNN_Facedetection.dir/src/facedetection.cpp.o -c "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection/src/facedetection.cpp"
 
 CMakeFiles/CNN_Facedetection.dir/src/facedetection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CNN_Facedetection.dir/src/facedetection.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection/src/facedetection.cpp" > CMakeFiles/CNN_Facedetection.dir/src/facedetection.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection/src/facedetection.cpp" > CMakeFiles/CNN_Facedetection.dir/src/facedetection.cpp.i
 
 CMakeFiles/CNN_Facedetection.dir/src/facedetection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CNN_Facedetection.dir/src/facedetection.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection/src/facedetection.cpp" -o CMakeFiles/CNN_Facedetection.dir/src/facedetection.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection/src/facedetection.cpp" -o CMakeFiles/CNN_Facedetection.dir/src/facedetection.cpp.s
 
 CMakeFiles/CNN_Facedetection.dir/src/main.cpp.o: CMakeFiles/CNN_Facedetection.dir/flags.make
 CMakeFiles/CNN_Facedetection.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CNN_Facedetection.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CNN_Facedetection.dir/src/main.cpp.o -c "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection/src/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CNN_Facedetection.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CNN_Facedetection.dir/src/main.cpp.o -c "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection/src/main.cpp"
 
 CMakeFiles/CNN_Facedetection.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CNN_Facedetection.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection/src/main.cpp" > CMakeFiles/CNN_Facedetection.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection/src/main.cpp" > CMakeFiles/CNN_Facedetection.dir/src/main.cpp.i
 
 CMakeFiles/CNN_Facedetection.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CNN_Facedetection.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection/src/main.cpp" -o CMakeFiles/CNN_Facedetection.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection/src/main.cpp" -o CMakeFiles/CNN_Facedetection.dir/src/main.cpp.s
 
 CMakeFiles/CNN_Facedetection.dir/src/mat.cpp.o: CMakeFiles/CNN_Facedetection.dir/flags.make
 CMakeFiles/CNN_Facedetection.dir/src/mat.cpp.o: ../src/mat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CNN_Facedetection.dir/src/mat.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CNN_Facedetection.dir/src/mat.cpp.o -c "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection/src/mat.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CNN_Facedetection.dir/src/mat.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CNN_Facedetection.dir/src/mat.cpp.o -c "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection/src/mat.cpp"
 
 CMakeFiles/CNN_Facedetection.dir/src/mat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CNN_Facedetection.dir/src/mat.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection/src/mat.cpp" > CMakeFiles/CNN_Facedetection.dir/src/mat.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection/src/mat.cpp" > CMakeFiles/CNN_Facedetection.dir/src/mat.cpp.i
 
 CMakeFiles/CNN_Facedetection.dir/src/mat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CNN_Facedetection.dir/src/mat.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection/src/mat.cpp" -o CMakeFiles/CNN_Facedetection.dir/src/mat.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection/src/mat.cpp" -o CMakeFiles/CNN_Facedetection.dir/src/mat.cpp.s
 
 # Object files for target CNN_Facedetection
 CNN_Facedetection_OBJECTS = \
@@ -173,7 +173,7 @@ CNN_Facedetection_EXTERNAL_OBJECTS =
 ../bin/CNN_Facedetection: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0
 ../bin/CNN_Facedetection: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0
 ../bin/CNN_Facedetection: CMakeFiles/CNN_Facedetection.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ../bin/CNN_Facedetection"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ../bin/CNN_Facedetection"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CNN_Facedetection.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -186,6 +186,6 @@ CMakeFiles/CNN_Facedetection.dir/clean:
 .PHONY : CMakeFiles/CNN_Facedetection.dir/clean
 
 CMakeFiles/CNN_Facedetection.dir/depend:
-	cd "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection" "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection" "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection/cmake-build-debug" "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection/cmake-build-debug" "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection/cmake-build-debug/CMakeFiles/CNN_Facedetection.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection" "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection" "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection/cmake-build-debug" "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection/cmake-build-debug" "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection/cmake-build-debug/CMakeFiles/CNN_Facedetection.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/CNN_Facedetection.dir/depend
 

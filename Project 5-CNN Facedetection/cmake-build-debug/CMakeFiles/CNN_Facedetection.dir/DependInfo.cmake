@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection/src/facedetection-data.cpp" "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection/cmake-build-debug/CMakeFiles/CNN_Facedetection.dir/src/facedetection-data.cpp.o"
-  "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection/src/facedetection.cpp" "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection/cmake-build-debug/CMakeFiles/CNN_Facedetection.dir/src/facedetection.cpp.o"
-  "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection/src/main.cpp" "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection/cmake-build-debug/CMakeFiles/CNN_Facedetection.dir/src/main.cpp.o"
-  "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection/src/mat.cpp" "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection/cmake-build-debug/CMakeFiles/CNN_Facedetection.dir/src/mat.cpp.o"
+  "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection/src/facedetection-data.cpp" "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection/cmake-build-debug/CMakeFiles/CNN_Facedetection.dir/src/facedetection-data.cpp.o"
+  "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection/src/facedetection.cpp" "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection/cmake-build-debug/CMakeFiles/CNN_Facedetection.dir/src/facedetection.cpp.o"
+  "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection/src/main.cpp" "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection/cmake-build-debug/CMakeFiles/CNN_Facedetection.dir/src/main.cpp.o"
+  "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection/src/mat.cpp" "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection/cmake-build-debug/CMakeFiles/CNN_Facedetection.dir/src/mat.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

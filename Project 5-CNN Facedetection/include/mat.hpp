@@ -1,7 +1,7 @@
 #ifndef CNN_FACEDETECTION_MAT_HPP
 #define CNN_FACEDETECTION_MAT_HPP
 
-class CMat
+class Mat8F
 {
 
 public:
@@ -10,11 +10,11 @@ public:
     float *data{};
 
 public:
-    CMat() = default;
+    Mat8F() = default;
 
-    CMat(size_t rows_, size_t cols_);
+    Mat8F(size_t rows_, size_t cols_);
 
-    ~CMat();
+    ~Mat8F();
 
     void init(size_t rows_, size_t cols_);
 
@@ -22,7 +22,7 @@ public:
 
     void transfer();
 
-    static void sgemm(const CMat &blobMat, const CMat &filterMat, CMat &resBlobMat);
+    static void sgemm(const Mat8F &blobMat, const Mat8F &filterMat, Mat8F &resBlobMat);
 
     [[nodiscard]] bool isValid() const;
 

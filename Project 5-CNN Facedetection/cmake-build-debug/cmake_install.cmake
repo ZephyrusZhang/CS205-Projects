@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection
+# Install script for directory: /mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

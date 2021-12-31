@@ -1,3 +1,3 @@
-/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection/cmake-build-debug/CMakeFiles/edit_cache.dir
-/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection/cmake-build-debug/CMakeFiles/CNN_Facedetection.dir
+/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection/cmake-build-debug/CMakeFiles/CNN_Facedetection.dir

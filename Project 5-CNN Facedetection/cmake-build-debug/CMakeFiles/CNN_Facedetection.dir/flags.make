@@ -6,5 +6,5 @@ CXX_FLAGS =  -O3 -O3 -DNDEBUG   -std=gnu++2a
 
 CXX_DEFINES = -DNDEBUG
 
-CXX_INCLUDES = -I"/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CNN Facedetection/include" -isystem /usr/include/opencv4 
+CXX_INCLUDES = -I"/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/CS205-Projects/Project 5-CNN Facedetection/include" -isystem /usr/include/opencv4 
 
