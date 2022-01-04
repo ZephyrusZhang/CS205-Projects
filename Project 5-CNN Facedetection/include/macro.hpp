@@ -60,4 +60,10 @@ freopen("/dev/tty", "w", stdout);
 #define DEBUG_PRINT cout << "<================Here================>" << endl;
 #endif
 
+#ifndef CNN_INLINE
+#ifdef __GNUC__
+#define CNN_INLINE inline __attribute__((always_inline))
+#endif
+#endif
+
 #endif //CNN_FACEDETECTION_MACRO_HPP

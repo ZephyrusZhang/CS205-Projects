@@ -70,10 +70,9 @@ void CDataBlob::setnull()
     rows = cols = channels = 0;
 }
 
-inline float CDataBlob::operator()(int rowIndex, int colIndex, int channelIndex) const
+CNN_INLINE float CDataBlob::operator()(int rowIndex, int colIndex, int channelIndex) const
 {
-    return (rowIndex >= 0 && rowIndex < rows && colIndex >= 0 && colIndex < cols) ?
-           data[channelIndex * rows * cols + rowIndex * cols + colIndex] : 0.0f;
+    return (rowIndex >= 0 && rowIndex < rows && colIndex >= 0 && colIndex < cols) ? data[channelIndex * rows * cols + rowIndex * cols + colIndex] : 0.0f;
 }
 
 bool CDataBlob::isValid() const
@@ -106,27 +105,27 @@ void Filter::setnull()
     rows = cols = channels = kernels = padding = stride = 0;
 }
 
-inline float Filter::operator()(int rowIndex, int colIndex, int channelIndex, int kernelIndex) const
+CNN_INLINE float Filter::operator()(int rowIndex, int colIndex, int channelIndex, int kernelIndex) const
 {
     return weights[kernelIndex * rows * cols * channels + channelIndex * rows * cols + rowIndex * cols + colIndex];
 }
 
-inline float Filter::operator()(int kernelIndex) const
+CNN_INLINE float Filter::operator()(int kernelIndex) const
 {
     return bias[kernelIndex];
 }
 
-inline int CDataBlob::total() const
+CNN_INLINE int CDataBlob::total() const
 {
     return channels * rows * cols;
 }
 
-inline bool Filter::isValid() const
+CNN_INLINE bool Filter::isValid() const
 {
     return rows > 0 && cols > 0 && channels > 0 && kernels > 0 && weights != nullptr && bias != nullptr;
 }
 
-inline float *cnn::allocate(int length, float initialValue)
+CNN_INLINE float *cnn::allocate(int length, float initialValue)
 {
     auto res = static_cast<float *>(aligned_alloc(256, length * sizeof(float)));
 #pragma omp parallel for
@@ -343,14 +342,14 @@ bool cnn::im2colConvReLU(const CDataBlob &blob, const Filter &filter, CDataBlob 
     ASSERT(blob.channels == filter.channels, "Inconsistent channels of blob and filter")
 
     /*<---------------------Filter Part--------------------->*/
-    Mat4f filterMat(filter.kernels, filter.rows * filter.cols * filter.channels);
+    Matf32 filterMat(filter.kernels, filter.rows * filter.cols * filter.channels);
     memcpy(filterMat.data, filter.weights, sizeof(float) * filterMat.rows * filterMat.cols);
     filterMat.transfer();
 
     /*<--------------------CDataBlob Part-------------------->*/
     size_t out_rows = floor((blob.rows + 2 * filter.padding - filter.rows) / filter.stride + 1);
     size_t out_cols = floor((blob.cols + 2 * filter.padding - filter.cols) / filter.stride + 1);
-    Mat4f blobMat(out_rows * out_cols, filterMat.rows);
+    Matf32 blobMat(out_rows * out_cols, filterMat.rows);
     size_t index = 0;
     for (int i = -filter.padding, x = 0; x < out_rows; i += filter.stride, ++x)
     {
@@ -371,8 +370,8 @@ bool cnn::im2colConvReLU(const CDataBlob &blob, const Filter &filter, CDataBlob 
         }
     }
 
-    Mat4f resMat;
-    Mat4f::sgemm(blobMat, filterMat, resMat);
+    Matf32 resMat;
+    Matf32::sgemm(blobMat, filterMat, resMat);
 
     for (size_t j = 0; j < resMat.cols; ++j)
     {

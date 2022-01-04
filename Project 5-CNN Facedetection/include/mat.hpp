@@ -1,7 +1,7 @@
 #ifndef CNN_FACEDETECTION_MAT_HPP
 #define CNN_FACEDETECTION_MAT_HPP
 
-class Mat4f
+class Matf32
 {
 
 public:
@@ -10,11 +10,11 @@ public:
     float *data{};
 
 public:
-    Mat4f() = default;
+    Matf32() = default;
 
-    Mat4f(size_t rows_, size_t cols_);
+    Matf32(size_t rows_, size_t cols_);
 
-    ~Mat4f();
+    ~Matf32();
 
     void init(size_t rows_, size_t cols_);
 
@@ -22,7 +22,7 @@ public:
 
     void transfer();
 
-    static void sgemm(const Mat4f &blobMat, const Mat4f &filterMat, Mat4f &resBlobMat);
+    static void sgemm(const Matf32 &blobMat, const Matf32 &filterMat, Matf32 &resBlobMat);
 
     [[nodiscard]] bool isValid() const;
 
