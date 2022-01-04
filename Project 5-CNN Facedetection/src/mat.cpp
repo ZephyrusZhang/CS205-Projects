@@ -3,7 +3,7 @@
 #include "mat.hpp"
 #include "macro.hpp"
 
-Mat8F::Mat8F(size_t rows_, size_t cols_)
+Mat4f::Mat4f(size_t rows_, size_t cols_)
         : rows(rows_), cols(cols_)
 {
     data = static_cast<float *>(std::aligned_alloc(256, sizeof(float) * rows * cols));
@@ -12,12 +12,12 @@ Mat8F::Mat8F(size_t rows_, size_t cols_)
         data[i] = 0.0f;
 }
 
-Mat8F::~Mat8F()
+Mat4f::~Mat4f()
 {
     setnull();
 }
 
-void Mat8F::init(size_t rows_, size_t cols_)
+void Mat4f::init(size_t rows_, size_t cols_)
 {
     rows = rows_;
     cols = cols_;
@@ -27,7 +27,7 @@ void Mat8F::init(size_t rows_, size_t cols_)
         data[i] = 0.0f;
 }
 
-void Mat8F::setnull()
+void Mat4f::setnull()
 {
     if (data != nullptr)
     {
@@ -37,7 +37,7 @@ void Mat8F::setnull()
     rows = cols = 0;
 }
 
-void Mat8F::transfer()
+void Mat4f::transfer()
 {
     auto *ptr = static_cast<float *>(aligned_alloc(256, sizeof(float) * cols * rows));
 #pragma omp parallel for
@@ -57,7 +57,7 @@ void Mat8F::transfer()
     rows = tmp;
 }
 
-void Mat8F::sgemm(const Mat8F &blobMat, const Mat8F &filterMat, Mat8F &resBlobMat)
+void Mat4f::sgemm(const Mat4f &blobMat, const Mat4f &filterMat, Mat4f &resBlobMat)
 {
     ASSERT(blobMat.isValid() && filterMat.isValid(), "Parameter [blobMat] or [filterMat] is invalid")
     ASSERT(blobMat.cols == filterMat.rows, "Inconsistent size for matrix sgemm")
@@ -78,7 +78,7 @@ void Mat8F::sgemm(const Mat8F &blobMat, const Mat8F &filterMat, Mat8F &resBlobMa
     }
 }
 
-inline bool Mat8F::isValid() const
+inline bool Mat4f::isValid() const
 {
     return (rows > 0 && cols > 0 && data != nullptr);
 }

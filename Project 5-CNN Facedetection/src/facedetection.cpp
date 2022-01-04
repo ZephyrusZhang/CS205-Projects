@@ -343,14 +343,14 @@ bool cnn::im2colConvReLU(const CDataBlob &blob, const Filter &filter, CDataBlob 
     ASSERT(blob.channels == filter.channels, "Inconsistent channels of blob and filter")
 
     /*<---------------------Filter Part--------------------->*/
-    Mat8F filterMat(filter.kernels, filter.rows * filter.cols * filter.channels);
+    Mat4f filterMat(filter.kernels, filter.rows * filter.cols * filter.channels);
     memcpy(filterMat.data, filter.weights, sizeof(float) * filterMat.rows * filterMat.cols);
     filterMat.transfer();
 
     /*<--------------------CDataBlob Part-------------------->*/
     size_t out_rows = floor((blob.rows + 2 * filter.padding - filter.rows) / filter.stride + 1);
     size_t out_cols = floor((blob.cols + 2 * filter.padding - filter.cols) / filter.stride + 1);
-    Mat8F blobMat(out_rows * out_cols, filterMat.rows);
+    Mat4f blobMat(out_rows * out_cols, filterMat.rows);
     size_t index = 0;
     for (int i = -filter.padding, x = 0; x < out_rows; i += filter.stride, ++x)
     {
@@ -371,8 +371,8 @@ bool cnn::im2colConvReLU(const CDataBlob &blob, const Filter &filter, CDataBlob 
         }
     }
 
-    Mat8F resMat;
-    Mat8F::sgemm(blobMat, filterMat, resMat);
+    Mat4f resMat;
+    Mat4f::sgemm(blobMat, filterMat, resMat);
 
     for (size_t j = 0; j < resMat.cols; ++j)
     {
