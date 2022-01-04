@@ -29,6 +29,6 @@
 
 - Project 5 - Simple CNN Face Detection
 
-  **[Score]** \
+  **[Score]** 95
 
-  **[Comment]** \
+  **[Comment]** Great work!
