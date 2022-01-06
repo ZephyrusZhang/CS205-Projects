@@ -1,3 +1,0 @@
-/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/Project 3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/Project 3/cmake-build-debug/CMakeFiles/edit_cache.dir
-/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/Project 3/cmake-build-debug/CMakeFiles/Project_3.dir
