@@ -1,5 +1,0 @@
-C:\Windows\system32\wsl.exe --distribution Ubuntu-20.04 --exec /bin/sh -c "export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd '/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/Project 3/cmake-build-release' && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Release '-DCMAKE_CUDA_COMPILER:PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\bin\nvcc.exe' -G 'CodeBlocks - Unix Makefiles' '/mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/Project 3'; sleep 0.001"
-Project name: Project_3
--- Configuring done
--- Generating done
--- Build files have been written to: /mnt/d/OneDrive - Office/File/Project/CLion/CS205 Projects/Project 3/cmake-build-release
