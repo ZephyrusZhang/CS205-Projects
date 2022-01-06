@@ -1,1 +1,0 @@
-/usr/bin/c++    -O3 -O3 -DNDEBUG   CMakeFiles/Project_4.dir/src/cuda_helper.cu.o CMakeFiles/Project_4.dir/src/main.cpp.o CMakeFiles/Project_4.dir/cmake_device_link.o  -o build/Project_4   -L/usr/lib/x86_64-linux-gnu/stubs  -L/usr/lib/gcc/x86_64-linux-gnu/8  -lcudadevrt -lcudart_static -lrt -lpthread -ldl 
