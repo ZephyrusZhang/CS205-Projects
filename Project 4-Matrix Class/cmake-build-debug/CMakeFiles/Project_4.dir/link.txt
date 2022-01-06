@@ -1,1 +1,0 @@
-/usr/bin/c++    -O3 -g   CMakeFiles/Project_4.dir/src/main.cpp.o  -o ../build/Project_4  -lpthread 
