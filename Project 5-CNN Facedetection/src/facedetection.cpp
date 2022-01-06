@@ -70,7 +70,7 @@ void CDataBlob::setnull()
     rows = cols = channels = 0;
 }
 
-CNN_INLINE float CDataBlob::operator()(int rowIndex, int colIndex, int channelIndex) const
+CNN_ALWAYS_INLINE float CDataBlob::operator()(int rowIndex, int colIndex, int channelIndex) const
 {
     return (rowIndex >= 0 && rowIndex < rows && colIndex >= 0 && colIndex < cols) ? data[channelIndex * rows * cols + rowIndex * cols + colIndex] : 0.0f;
 }
@@ -105,27 +105,27 @@ void Filter::setnull()
     rows = cols = channels = kernels = padding = stride = 0;
 }
 
-CNN_INLINE float Filter::operator()(int rowIndex, int colIndex, int channelIndex, int kernelIndex) const
+CNN_ALWAYS_INLINE float Filter::operator()(int rowIndex, int colIndex, int channelIndex, int kernelIndex) const
 {
     return weights[kernelIndex * rows * cols * channels + channelIndex * rows * cols + rowIndex * cols + colIndex];
 }
 
-CNN_INLINE float Filter::operator()(int kernelIndex) const
+CNN_ALWAYS_INLINE float Filter::operator()(int kernelIndex) const
 {
     return bias[kernelIndex];
 }
 
-CNN_INLINE int CDataBlob::total() const
+CNN_ALWAYS_INLINE int CDataBlob::total() const
 {
     return channels * rows * cols;
 }
 
-CNN_INLINE bool Filter::isValid() const
+CNN_ALWAYS_INLINE bool Filter::isValid() const
 {
     return rows > 0 && cols > 0 && channels > 0 && kernels > 0 && weights != nullptr && bias != nullptr;
 }
 
-CNN_INLINE float *cnn::allocate(int length, float initialValue)
+CNN_ALWAYS_INLINE float *cnn::allocate(int length, float initialValue)
 {
     auto res = static_cast<float *>(aligned_alloc(256, length * sizeof(float)));
 #pragma omp parallel for

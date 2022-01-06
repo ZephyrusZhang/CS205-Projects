@@ -60,9 +60,9 @@ freopen("/dev/tty", "w", stdout);
 #define DEBUG_PRINT cout << "<================Here================>" << endl;
 #endif
 
-#ifndef CNN_INLINE
+#ifndef CNN_ALWAYS_INLINE
 #ifdef __GNUC__
-#define CNN_INLINE inline __attribute__((always_inline))
+#define CNN_ALWAYS_INLINE inline __attribute__((always_inline))
 #endif
 #endif
 
